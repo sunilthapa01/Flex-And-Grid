@@ -1,0 +1,42 @@
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.for-flex {
+    display: flex;
+    border: 2px solid black;
+    height: 700px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.for-item {
+    background-color: #144552;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.One {
+    align-self: center;
+}
+
+.Two {
+    background-color: aquamarine;
+    width: 1000px;
+}
+
+.Three {
+    background-color: blueviolet;
+    width: 600px;
+    align-self: flex-start;
+}
