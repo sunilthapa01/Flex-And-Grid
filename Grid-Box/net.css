@@ -1,0 +1,55 @@
+/* main {
+    display: flex;
+    justify-content: center;
+} */
+
+.for-grid {
+    background-color: grey;
+    /* width: 600px; */
+    height: 700px;
+    display: grid;
+    /* grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: 43px 1fr 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 12px;
+}
+
+.for-item {
+    background-color: #00ff75;
+    /* height: 122px; */
+    /* width: 122px; */
+}
+
+.One {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+.Two {
+    background-image: url('https://i.pinimg.com/236x/3b/88/cf/3b88cf991755eb9e6bdc987315122e78.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Three {
+    background-image: url('https://i.pinimg.com/236x/35/aa/b6/35aab66d4d5e1cd967efe1409f256915.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Four {
+    background-image: url('https://i.pinimg.com/474x/cb/5d/e4/cb5de49c5ad770e04bd7198b60c2b3ff.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Five {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 3px solid black;
+    background-color: blueviolet;
+}
